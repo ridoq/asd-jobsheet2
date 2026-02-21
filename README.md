@@ -55,6 +55,7 @@
     ```
 
     object yang dihasilkan adalah mhs1
-    
+2.  menggunakan operator titik (.) setelah nama object untuk mengakses attibute atau method nya, contoh mhs1.tampikanInformasi()
+
 ---
 
