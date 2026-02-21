@@ -97,12 +97,14 @@
 3.  jika di run maka akan terjadi error, hal tersebut dapat terjadi karena pada main() tepatnya pada instansiasi objetc, object mhs1 menggunakan konstruktor default atau non-parameter, sedangkan pada class Mahasiswa23 terdapat konstruktor berparameter, jadi ketika konstruktor non-parameter nya dihapus maka sistem akan menganggap user akan membuat objek secara manual menggunakan konstruktor berparameter. Lalu pada instansiasi object mhs1 masih merujuk pada konstruktor default atau tidak berparameter, jadi akan terjadi error karena konstruktor non-parameter telah dihapus dan konstruktor default java telah dihapus paksa karena ada konstruktor lain. 
 4.  tidak. karena method dalam sebuah class bersifat independen, bebas diakses yang mana dulu, urutan akses method disesuaikan dengan hasil yang diinginkan oleh user.
 5.  done
+
     ```java
         Mahasiswa23 mhsRidok = new Mahasiswa23("Taufiqi Ridho Maulana", "254107060058", 3.5, "SIB 1Z");
         mhsRidok.updateIpk(3.6);
         mhsRidok.ubahKelas("SIB 1F");
         mhsRidok.tampilkanInformasi();
     ```
+6. done
 
 ---
 
