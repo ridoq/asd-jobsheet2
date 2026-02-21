@@ -56,6 +56,7 @@
 
     object yang dihasilkan adalah mhs1
 2.  menggunakan operator titik (.) setelah nama object untuk mengakses attibute atau method nya, contoh mhs1.tampikanInformasi()
+3.  sebelumnya pada method main() terdapat 2 pemanggilan method tampilkanInformasi(), hasilnya bisa berbeda karena terdapat perubahan data diantara kedua pemanggilan method tampilkanInformasi() tersebut
 
 ---
 
