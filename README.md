@@ -60,3 +60,38 @@
 
 ---
 
+#   Percobaan 3
+
+##  Soal 
+
+1.	Pada class Mahasiswa di Percobaan 3, tunjukkan baris kode program yang digunakan untuk mendeklarasikan konstruktor berparameter!
+2.	Perhatikan class MahasiswaMain. Apa sebenarnya yang dilakukan pada baris program berikut? 
+
+    ```java
+        Mahasiswa23 mhs2 = new Mahasiswa23("Jane Doe", "254100000001", 3.99, "SIB 1F");
+    ```
+
+3.	Hapus konstruktor default pada class Mahasiswa, kemudian compile dan run program. Bagaimana hasilnya? Jelaskan mengapa hasilnya demikian!
+4.  Setelah melakukan instansiasi object, apakah method di dalam class Mahasiswa harus diakses secara berurutan? Jelaskan alasannya!
+5.	Buat object baru dengan nama mhs<NamaMahasiswa> menggunakan konstruktor berparameter dari class Mahasiswa!
+6.	Commit dan push kode program ke Github
+
+
+
+---
+
+##  Jawaban
+
+1.  berikut baris code nya:
+
+    ```java
+        public Mahasiswa23(String nm, String nim, double ipk, String kls){
+            nama = nm;
+            this.nim = nim;
+            this.ipk = ipk;
+            kelas = kls;
+        }
+    ```
+
+---
+
