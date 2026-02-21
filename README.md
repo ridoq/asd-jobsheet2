@@ -16,5 +16,16 @@
 1.  2 karakteristik dari class atau object adalah atribut (sebuah variable yang menyimpan data atau status dari object) dan method (fungsi yang mendefinisikan tingkah laku atau sesuatu yang dapay dilakukan oleh objek tersebut)
 2.  ada 4 yaitu nama, nim, kelas, dan ipk
 3.  ada 4 juga yaitu tampilkanInformasi(), ubahKelas(String kelasBaru), updateIpk(double ipkBaru), dan nilaiKinerja()
+4.  done
+
+```java
+    void updateIpk (double ipkBaru){
+        if (ipkBaru >= 0.0 && ipkBaru <= 4.0) {
+            ipk = ipkBaru;
+        }else{
+            System.out.println("IPK yang anda masukkan tidak valid, silahkan masukkan IPK kembali");
+        }
+    }
+```
 
 ---
