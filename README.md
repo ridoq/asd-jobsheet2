@@ -14,5 +14,6 @@
 ##  Jawaban
 
 1.  2 karakteristik dari class atau object adalah atribut (sebuah variable yang menyimpan data atau status dari object) dan method (fungsi yang mendefinisikan tingkah laku atau sesuatu yang dapay dilakukan oleh objek tersebut)
+2.  ada 4 yaitu nama, nim, kelas, dan ipk
 
 ---
