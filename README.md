@@ -94,6 +94,7 @@
     ```
 
 2.  yang terjadi pada baris kode tersebut adalah proses instansiasi yaitu membuat objek baru (mhs2) dan proses inisialisasi yaitu pengisian atribut dari mhs2 pada parameter
+3.  jika di run maka akan terjadi error, hal tersebut dapat terjadi karena pada main() tepatnya pada instansiasi objetc, object mhs1 menggunakan konstruktor default atau non-parameter, sedangkan pada class Mahasiswa23 terdapat konstruktor berparameter, jadi ketika konstruktor non-parameter nya dihapus maka sistem akan menganggap user akan membuat objek secara manual menggunakan konstruktor berparameter. Lalu pada instansiasi object mhs1 masih merujuk pada konstruktor default atau tidak berparameter, jadi akan terjadi error karena konstruktor non-parameter telah dihapus dan konstruktor default java telah dihapus paksa karena ada konstruktor lain. 
 
 ---
 

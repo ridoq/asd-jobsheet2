@@ -4,7 +4,6 @@ public class Mahasiswa23 {
     String kelas;
     double ipk;
 
-    public Mahasiswa23(){}
     public Mahasiswa23(String nm, String nim, double ipk, String kls){
         nama = nm;
         this.nim = nim;
