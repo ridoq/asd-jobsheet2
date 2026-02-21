@@ -28,4 +28,8 @@
     }
 ```
 
+5.  - cara kerja method ini adalah dengan memeriksa nilai yang tersimpan pada atribut ipk menggunakan if-else
+    - kriteria penilaiannya yaitu jika ipk lebih atau sama dengan 3.5 maka dianggap kinerja sangat baik, jika ipk lebih atau sama dengan 3 maka dianggap kinerja baik, jika ipk lebih atau sama dengan  2 maka dianggap kinerja cukup, dan jika ipk kurang dari 2 maka dianggap kinerja kurang
+    - nilai yang dikembalikan (return) berupa String contoh jika ipk == 3.6 maka return nya adalah "Kinerja sangat baik"
+    
 ---
