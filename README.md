@@ -18,19 +18,43 @@
 3.  ada 4 juga yaitu tampilkanInformasi(), ubahKelas(String kelasBaru), updateIpk(double ipkBaru), dan nilaiKinerja()
 4.  done
 
-```java
-    void updateIpk (double ipkBaru){
-        if (ipkBaru >= 0.0 && ipkBaru <= 4.0) {
-            ipk = ipkBaru;
-        }else{
-            System.out.println("IPK yang anda masukkan tidak valid, silahkan masukkan IPK kembali");
+    ```java
+        void updateIpk (double ipkBaru){
+            if (ipkBaru >= 0.0 && ipkBaru <= 4.0) {
+                ipk = ipkBaru;
+            }else{
+                System.out.println("IPK yang anda masukkan tidak valid, silahkan masukkan IPK kembali");
+            }
         }
-    }
-```
+    ```
 
 5.  - cara kerja method ini adalah dengan memeriksa nilai yang tersimpan pada atribut ipk menggunakan if-else
     - kriteria penilaiannya yaitu jika ipk lebih atau sama dengan 3.5 maka dianggap kinerja sangat baik, jika ipk lebih atau sama dengan 3 maka dianggap kinerja baik, jika ipk lebih atau sama dengan  2 maka dianggap kinerja cukup, dan jika ipk kurang dari 2 maka dianggap kinerja kurang
     - nilai yang dikembalikan (return) berupa String contoh jika ipk == 3.6 maka return nya adalah "Kinerja sangat baik"
 
 6.  done    
+
 ---
+
+#   Percobaan 2
+
+##  Soal 
+
+1.	Pada class MahasiswaMain, tunjukkan baris kode program yang digunakan untuk proses instansiasi! Apa nama object yang dihasilkan?
+2.	Bagaimana cara mengakses atribut dan method dari suatu objek?
+3.	Mengapa hasil output pemanggilan method tampilkanInformasi() pertama dan kedua berbeda?
+
+---
+
+##  Jawaban
+
+1.  baris code proses instansiasi adalah berikut:
+
+    ```java
+        Mahasiswa23 mhs1 = new Mahasiswa23();
+    ```
+
+    object yang dihasilkan adalah mhs1
+    
+---
+
