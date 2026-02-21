@@ -93,5 +93,7 @@
         }
     ```
 
+2.  yang terjadi pada baris kode tersebut adalah proses instansiasi yaitu membuat objek baru (mhs2) dan proses inisialisasi yaitu pengisian atribut dari mhs2 pada parameter
+
 ---
 
